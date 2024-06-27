@@ -1,0 +1,1 @@
+sudo docker run --name sampleDBcontainer -p 5432:5432 -v /tmp/sample-database:/var/lib/postgresql/data -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=sample -d postgres
